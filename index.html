@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="header">
+            <img class="header_logo" src="./img/Logo.png" >
+        </div>
+    </header>
+
+        <main>
+        <div class="main">
+            <div class="left">
+                <textarea id="ingresaTexto" class="IngresoTexto" placeholder="Ingrese el texto aqui"></textarea>
+                    <div class="left_footer">
+                        <img src="./img/vector.png" >
+                        <span>Solo letras minisculas y sin acentos</span>
+                            <div class="left_botones">
+                                <button id="botonEncriptar" class="boton_Encriptar">Encriptar</button>
+                                <button id="botonDesencritar" class="boton_Desencriptar">Desencriptar</button>
+                            </div>
+                    </div>
+            </div> 
+            <div id="right" class="right ajustar">
+                <img id="muñeco" class="muñeco" src="./img/muñeco.png" >
+                <textarea id="mensajeFinal" class="mensaje_Final" placeholder="Ningun mensaje fue encontrado"></textarea>
+                <p id="rightInfo" class="rightInfo">Ingresa el texto que desees encriptar o desencriptar</p>
+                <button id="botonCopiar" class="boton_Copiar oculto">Copiar</button>
+            </div>
+        </div>
+        </main>
+
+
+
+<!-- 
+    <footer>
+
+    </footer> -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
